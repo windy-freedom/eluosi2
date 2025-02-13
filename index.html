@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的WordPress博客</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+            <div class="site-branding">
+                <h1 class="site-title"><a href="#">我的博客</a></h1>
+                <p class="site-description">分享技术与生活</p>
+            </div>
+            <nav class="main-navigation">
+                <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="primary-menu">
+                    <li><a href="#" class="active">首页</a></li>
+                    <li><a href="#">技术</a></li>
+                    <li><a href="#">生活</a></li>
+                    <li><a href="#">关于我</a></li>
+                    <li><a href="#">联系方式</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="site-content">
+        <main class="content-area">
+            <article class="post">
+                <header class="entry-header">
+                    <h2 class="entry-title"><a href="#">WordPress开发入门指南</a></h2>
+                    <div class="entry-meta">
+                        <span class="posted-on"><i class="far fa-calendar"></i> 2024-02-13</span>
+                        <span class="byline"><i class="far fa-user"></i> 管理员</span>
+                        <span class="comments-link"><i class="far fa-comment"></i> 5条评论</span>
+                    </div>
+                </header>
+                <div class="entry-content">
+                    <p>WordPress是世界上最受欢迎的内容管理系统之一。本文将介绍如何开始使用WordPress进行网站开发...</p>
+                </div>
+                <footer class="entry-footer">
+                    <a href="#" class="read-more">继续阅读 <i class="fas fa-arrow-right"></i></a>
+                </footer>
+            </article>
+
+            <article class="post">
+                <header class="entry-header">
+                    <h2 class="entry-title"><a href="#">如何优化WordPress网站性能</a></h2>
+                    <div class="entry-meta">
+                        <span class="posted-on"><i class="far fa-calendar"></i> 2024-02-12</span>
+                        <span class="byline"><i class="far fa-user"></i> 管理员</span>
+                        <span class="comments-link"><i class="far fa-comment"></i> 3条评论</span>
+                    </div>
+                </header>
+                <div class="entry-content">
+                    <p>网站性能对用户体验和SEO都至关重要。本文将分享一些实用的WordPress性能优化技巧...</p>
+                </div>
+                <footer class="entry-footer">
+                    <a href="#" class="read-more">继续阅读 <i class="fas fa-arrow-right"></i></a>
+                </footer>
+            </article>
+
+            <nav class="pagination">
+                <span class="page-numbers current">1</span>
+                <a href="#" class="page-numbers">2</a>
+                <a href="#" class="page-numbers">3</a>
+                <a href="#" class="next page-numbers"><i class="fas fa-angle-right"></i></a>
+            </nav>
+        </main>
+
+        <aside class="sidebar">
+            <div class="widget search-widget">
+                <form role="search" method="get" class="search-form">
+                    <label>
+                        <span class="screen-reader-text">搜索:</span>
+                        <input type="search" class="search-field" placeholder="搜索...">
+                    </label>
+                    <button type="submit" class="search-submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+
+            <div class="widget categories-widget">
+                <h2 class="widget-title">分类目录</h2>
+                <ul>
+                    <li><a href="#">WordPress开发 (5)</a></li>
+                    <li><a href="#">网站优化 (3)</a></li>
+                    <li><a href="#">主题制作 (2)</a></li>
+                    <li><a href="#">插件开发 (4)</a></li>
+                </ul>
+            </div>
+
+            <div class="widget recent-posts-widget">
+                <h2 class="widget-title">最新文章</h2>
+                <ul>
+                    <li><a href="#">WordPress开发入门指南</a></li>
+                    <li><a href="#">如何优化WordPress网站性能</a></li>
+                    <li><a href="#">WordPress主题开发教程</a></li>
+                    <li><a href="#">自定义WordPress插件开发</a></li>
+                </ul>
+            </div>
+
+            <div class="widget tags-widget">
+                <h2 class="widget-title">标签云</h2>
+                <div class="tagcloud">
+                    <a href="#" class="tag-cloud-link">WordPress</a>
+                    <a href="#" class="tag-cloud-link">开发</a>
+                    <a href="#" class="tag-cloud-link">主题</a>
+                    <a href="#" class="tag-cloud-link">插件</a>
+                    <a href="#" class="tag-cloud-link">优化</a>
+                    <a href="#" class="tag-cloud-link">教程</a>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-widgets">
+            <div class="footer-widget">
+                <h3>关于本站</h3>
+                <p>这是一个专注于WordPress开发和网站建设的个人博客,分享技术经验和实用教程。</p>
+            </div>
+            <div class="footer-widget">
+                <h3>联系方式</h3>
+                <ul class="social-links">
+                    <li><a href="#"><i class="fab fa-github"></i> GitHub</a></li>
+                    <li><a href="#"><i class="fab fa-weixin"></i> 微信</a></li>
+                    <li><a href="#"><i class="far fa-envelope"></i> Email</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="site-info">
+            <p>&copy; 2024 我的WordPress博客 - 由 WordPress 强力驱动</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
